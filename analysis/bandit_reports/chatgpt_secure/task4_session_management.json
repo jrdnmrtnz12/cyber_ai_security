@@ -1,0 +1,59 @@
+{
+  "errors": [],
+  "generated_at": "2026-04-29T03:58:08Z",
+  "metrics": {
+    "/Users/jrdnmrtnz12/Cyber_AI_Project/ai-security-comparison/generated_code/chatgpt/secure/task4_session_management.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 132,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 132,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "46         # Hash generated from werkzeug.security.generate_password_hash(\"StrongPassword123!\")\n47         \"password_hash\": \"scrypt:32768:8:1$example$replace_with_real_hash\"\n48     }\n49 \n50     if username == fake_user[\"username\"]:\n51         return fake_user\n52 \n53     return None\n",
+      "col_offset": 8,
+      "end_col_offset": 23,
+      "filename": "/Users/jrdnmrtnz12/Cyber_AI_Project/ai-security-comparison/generated_code/chatgpt/secure/task4_session_management.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: 'scrypt:32768:8:1$example$replace_with_real_hash'",
+      "line_number": 47,
+      "line_range": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b105_hardcoded_password_string.html",
+      "test_id": "B105",
+      "test_name": "hardcoded_password_string"
+    }
+  ]
+}
