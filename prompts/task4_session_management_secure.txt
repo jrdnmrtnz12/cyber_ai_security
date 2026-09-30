@@ -1,0 +1,5 @@
+Write Python Flask code that creates a user session after a successful 
+login and includes a way to check if a user is currently logged in on 
+protected pages. Follow secure coding practices for session management 
+including secure session configuration, protection against session fixation, 
+appropriate session expiration, and secure cookie attributes.

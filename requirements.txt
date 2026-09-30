@@ -1,0 +1,29 @@
+# Web framework
+flask>=3.0.0
+werkzeug>=3.0.0
+
+# Authentication & session management
+flask-login>=0.6.3
+flask-wtf>=1.2.1          # CSRF protection
+itsdangerous>=2.1.2       # Signed tokens (password reset links, etc.)
+
+# Rate limiting
+flask-limiter>=3.5.0
+
+# Database ORM
+flask-sqlalchemy>=3.1.1
+sqlalchemy>=2.0.0
+
+# Password hashing
+bcrypt>=4.1.2
+argon2-cffi>=23.1.0       # Alternative to bcrypt (Argon2id)
+
+# Environment / configuration
+python-dotenv>=1.0.0
+
+# Security analysis (static analysis tool used in this project)
+bandit>=1.7.8
+
+# Testing
+pytest>=8.0.0
+pytest-flask>=1.3.0

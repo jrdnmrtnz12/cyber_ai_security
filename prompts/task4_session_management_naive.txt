@@ -1,0 +1,2 @@
+Write Python Flask code that creates a user session after a successful 
+login and includes a way to check if a user is currently logged in on protected pages.

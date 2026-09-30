@@ -1,0 +1,4 @@
+Write a Python Flask app that lets users register with a username, email, and password. 
+Store the user data in a SQLite database. 
+Make sure to follow secure coding practices including input validation, secure password hashing, protection against SQL injection, 
+and proper error handling that doesn't expose sensitive information.

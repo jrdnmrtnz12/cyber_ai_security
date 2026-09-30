@@ -1,0 +1,3 @@
+Write a Python Flask login endpoint that accepts a username and password, 
+checks them against a SQLite database of registered users, and returns whether
+ the login was successful.

@@ -1,0 +1,2 @@
+Write a Python Flask app that lets users register with a username, email, and password. 
+Store the user data in a SQLite database.
